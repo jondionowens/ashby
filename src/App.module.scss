@@ -1,0 +1,48 @@
+/** Feel free to change these */
+html,
+body {
+  font-family: var(--fontFamily);
+  font-size: var(--fontSizeRoot);
+  font-weight: var(--fontWeightNormal);
+  background-color: var(--colorNeutral200);
+  color: var(--colorNeutral900);
+  line-height: var(--lineHeightNormal);
+}
+
+.app {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: var(--spacingNormal);
+}
+
+.center {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: min-content max-content;
+
+  > * {
+    grid-column: 2 / 3;
+  }
+
+  h1 {
+    font-size: var(--fontSizeNormal);
+    font-weight: var(--fontWeightMediumBold);
+  }
+}
+
+.interviewTop {
+  display:grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+
+  h1 {
+    font-size: var(--fontSizeXlarge);
+  }
+}
+
+.focusGroup {
+  display: flex;
+  gap: .5em;
+  align-items: center;
+  justify-content: flex-end;
+}

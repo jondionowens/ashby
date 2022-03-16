@@ -1,0 +1,96 @@
+:root {
+  /***** Colors ****/
+
+  /* Greys */
+  --colorNeutral900: #1c1a33;
+  --colorNeutral800: #373e4d;
+  --colorNeutral700: #545b6d;
+  --colorNeutral600: #7d8699;
+  --colorNeutral500: #a8aebd;
+  --colorNeutral400: #c2c7d1;
+  --colorNeutral300: #d7dae0;
+  --colorNeutral200: #e5e6e8;
+  --colorNeutral150: #f3f2f7;
+  --colorNeutral100: #f7f8fa;
+  --colorNeutral000: #fff;
+
+  /* Primary */
+  --colorPrimary800: #251c8c;
+  --colorPrimary700: #483fad;
+  --colorPrimary200: #dbd9f1;
+
+  /* Color Shadow */
+  --colorShadow: rgba(72, 63, 173, 0.2);
+  --colorMark200: #eddd87;
+
+  /* Negative */
+  --colorNegative600: #dc3030;
+  --colorNegative200: #fce8e8;
+
+  /* Positive */
+  --colorPositive600: #29b458;
+  --colorPositive200: #eafcec;
+
+  /* Waarning */
+  --colorWarning600: #8c6d1f;
+  --colorWarning200: #f4ca64;
+
+  /***** Dimensions ****/
+
+  /* Border Radii */
+  --borderRadius: 0.625rem;
+
+  /* Border Width */
+  --borderWidthNormal: 1px;
+  --borderWidthBold: 2px;
+
+  /* Spacing */
+  --spacingXxxsmall: 0.125rem;
+  --spacingXxsmall: 0.25rem;
+  --spacingXsmall: 0.5rem;
+  --spacingSmall: 0.75rem;
+  --spacingNormal: 1rem;
+  --spacingLarge: 1.5rem;
+  --spacingXlarge: 2rem;
+  --spacingXxlarge: 3rem;
+  --spacingXxxlarge: 4rem;
+
+  /***** Font ****/
+
+  /* Fonts */
+  --fontFamily: "Source Sans Pro", sans-serif;
+
+  /* Font Sizes */
+  --fontSizeRoot: 14px;
+  --fontSizeXxxxxlarge: 2.75rem;
+  --fontSizeXxxxlarge: 2.25rem;
+  --fontSizeXxxlarge: 1.875rem;
+  --fontSizeXxlarge: 1.5rem;
+  --fontSizeXlarge: 1.25rem;
+  --fontSizeLarge: 1.125rem;
+  --fontSizeNormal: 1rem;
+  --fontSizeSmall: 0.875rem;
+  --fontSizeXsmall: 0.75rem;
+  --fontSizeXxsmall: 0.625rem;
+  --fontSizeXxxsmall: 0.5rem;
+
+  /* Weights */
+  --fontWeightNormal: 400;
+  --fontWeightLightBold: 500;
+  --fontWeightMediumBold: 600;
+  --fontWeightHeavyBold: 700;
+
+  /* Line Heights */
+  --lineHeightTitle: 1.5em;
+  --lineHeightNormal: 1.7em;
+
+  /* Letter Spacing */
+  --letterSpacingWide: 0.1em;
+
+  /***** Z-index ****/
+  --zAboveContent: 1;
+
+  /***** Animation ****/
+  --transitionDuration: 0.25s;
+  --transitionFunction: ease-in-out;
+}

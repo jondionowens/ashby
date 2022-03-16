@@ -1,0 +1,44 @@
+{
+  "name": "react-typescript-and-sass",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@types/javascript-time-ago": "2.0.2",
+    "faker": "5.5.3",
+    "javascript-time-ago": "2.3.7",
+    "luxon": "1.27.0",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "react-switch": "6.0.0",
+    "sanitize.css": "12.0.1",
+    "sass": "1.35.1",
+    "styled-components": "5.3.3",
+    "typescript": "4.3.4",
+    "unique-random-array": "3.0.0",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@types/faker": "5.5.2",
+    "@types/luxon": "1.27.0",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@types/uuid": "8.3.0",
+    "typescript": "4.3.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
